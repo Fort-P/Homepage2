@@ -10,23 +10,24 @@ html {
   font-size: 25px;
 }
 
-.topnav {
+#topnav {
   background-color: #d9d9d9;
   float: left;
   width: 100%;
   font-size: large;
+  position: fixed;
 }
 
 #logo {
   padding: 5px 0px 0px 5px;
 }
 
-.links {
+#links {
   overflow: hidden;
   float: right;
 }
 
-.links a {
+#links a {
   float: left;
   display: block;
   color: black;
@@ -36,7 +37,7 @@ html {
 
 }
 
-.links a:hover {
+#links a:hover {
   background-color: black;
   color: #d9d9d9;
 }
