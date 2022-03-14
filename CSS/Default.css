@@ -19,9 +19,19 @@ body{
 }
 
 #logo {
+  float: left;
   padding: 5px 0px 0px 5px;
 }
 
 #copyright {
     font-size: small;
+}
+
+#colorSelector div {
+	position: relative;
+	top: 3px;
+	left: 3px;
+	width: 30px;
+	height: 30px;
+	background: url(../Assets/Images/select.png) center;
 }
