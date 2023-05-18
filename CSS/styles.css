@@ -525,14 +525,6 @@ nav {
     flex-wrap: wrap;
 }
 
-.head-scroll {
-    display: flex;
-    flex-direction: row;
-    gap: 1em;
-    align-items: center;
-    font-size: 16px;
-}
-
 .mondrian {
     max-width: 100%;
 }
