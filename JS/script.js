@@ -9,3 +9,5 @@ faqQuestions.forEach((faqQuestion, index) => {
     faqAnswers[index].classList.toggle("expand");
   });
 });
+
+//LOGIN
