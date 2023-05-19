@@ -1,0 +1,13 @@
+{
+  "name": "Homepage2",
+  "version": "1.0.0",
+  "description": "A customizable Homepage for your browser",
+  "main": "index.js",
+  "repository": "https://github.com/Fort-P/Homepage2.git",
+  "author": "Fort-P <74835871+Fort-P@users.noreply.github.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "gotrue-js": "^0.9.29"
+  }
+}
