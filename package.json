@@ -1,0 +1,23 @@
+{
+  "name": "homepage2",
+  "version": "1.0.0",
+  "description": "A customiable homepage for your browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fort-P/Homepage2.git"
+  },
+  "author": "Fort-P",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fort-P/Homepage2/issues"
+  },
+  "homepage": "https://github.com/Fort-P/Homepage2#readme",
+  "dependencies": {
+    "esbuild": "0.17.19",
+    "gotrue-js": "^0.9.29"
+  }
+}
