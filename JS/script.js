@@ -9,11 +9,3 @@ faqQuestions.forEach((faqQuestion, index) => {
     faqAnswers[index].classList.toggle("expand");
   });
 });
-
-//IMAGE
-var myInput = document.getElementById("myInput");
-var body = document.getElementById("body");
-
-myInput.addEventListener("input", function() {
-  body.style.backgroundImage = "url(" + this.value + ")";
-});
