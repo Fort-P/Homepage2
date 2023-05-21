@@ -41,6 +41,8 @@ body {
   height: 100vh;
   margin: 0 15%;
   gap: 4em;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   /* font */
   font-family: "Inter", sans-serif;
