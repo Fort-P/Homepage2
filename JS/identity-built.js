@@ -980,6 +980,21 @@
 
   // JS/identity.js
   var import_gotrue_js = __toESM(require_lib2());
+  function loginmodal() {
+    console.log("pre-hi");
+    document.getElementById("login-modal").style.display = "block";
+  }
+  function loginuser() {
+    var email = document.getElementById("Email").value;
+    var password = document.getElementById("Password").value;
+    auth.login(email.value, password.value).then((response) => {
+      console.log("Success! Response: " + JSON.stringify({ response }));
+    }).catch((error) => console.log("Failed :( " + JSON.stringify(error)));
+  }
+  window.onload = function() {
+    document.getElementById("account-button").onclick = loginmodal;
+    document.getElementById("login-button").onclick = loginuser;
+  };
   var auth = new import_gotrue_js.default({
     APIUrl: "https://homepage2.netlify.app/.netlify/identity",
     audience: "",
